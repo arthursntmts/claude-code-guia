@@ -197,8 +197,9 @@
 
   /* ANIMATIONS */
   @keyframes fadeUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
-  .animate { animation: fadeUp .6s ease forwards; }
+  .animate { opacity: 0; }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js"></script>
 </head>
 <body>
 
@@ -1271,6 +1272,8 @@
 </button>
 
 <script>
+  const { animate, inView, stagger } = window.Motion;
+
   // Wizard tabs
   function showTab(id) {
     document.querySelectorAll('.wizard-panel').forEach(p => p.classList.remove('active'));
@@ -1279,21 +1282,24 @@
     event.target.classList.add('active');
   }
 
-  // Fade in on scroll
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.style.opacity = '1';
-        e.target.style.transform = 'translateY(0)';
-      }
-    });
-  }, { threshold: 0.1 });
+  // Hero entrance (Motion spring)
+  const heroEl = document.querySelector('.hero-content');
+  if (heroEl) {
+    animate(heroEl, { opacity: [0, 1], y: [32, 0] }, { duration: 0.8, easing: [0.16, 1, 0.3, 1] });
+  }
 
-  document.querySelectorAll('.card, .cmd-card, .integration-card, .step-body').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(16px)';
-    el.style.transition = 'opacity .5s ease, transform .5s ease';
-    observer.observe(el);
+  // Scroll-triggered stagger por seção
+  document.querySelectorAll('section').forEach(section => {
+    const cards = Array.from(section.querySelectorAll('.card, .cmd-card, .integration-card, .step-body'));
+    if (!cards.length) return;
+    cards.forEach(el => { el.style.opacity = '0'; });
+    inView(section, () => {
+      animate(cards, { opacity: [0, 1], y: [20, 0] }, {
+        duration: 0.45,
+        delay: stagger(0.06),
+        easing: [0.25, 0.1, 0.25, 1]
+      });
+    }, { margin: '-8% 0px' });
   });
 
   // Active nav link
