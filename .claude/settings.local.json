@@ -3,7 +3,24 @@
     "allow": [
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git remote *)",
+      "Bash(git push *)"
+    ]
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "cd \"C:\\Users\\Carla\\Downloads\\Claude Code 1\" && git add -A && git diff --cached --quiet || git commit -m \"auto: sync alterações\" && git push 2>/dev/null || true",
+            "timeout": 30,
+            "statusMessage": "Sincronizando com GitHub..."
+          }
+        ]
+      }
     ]
   }
 }
