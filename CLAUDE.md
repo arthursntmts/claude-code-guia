@@ -15,6 +15,14 @@ Everything lives in `index.html`:
 - **JavaScript** — inline at the bottom; handles wizard tab switching (`showTab()`), scroll-based fade-in via `IntersectionObserver`, and active nav highlighting.
 - **SVGs** — all diagrams are inline `<svg>` elements with hardcoded coordinates. Arrow markers are defined with `<defs>` locally inside each SVG; marker IDs must be unique across the page.
 
+## GitHub sync automático
+
+O repositório está em **https://github.com/arthursntmts/claude-code-guia** (público).
+
+Um hook `Stop` em `.claude/settings.local.json` faz commit e push automaticamente após cada turno do Claude que altere arquivos. O commit usa a mensagem `"auto: sync alterações"`. Não é necessário fazer `git add` / `git commit` / `git push` manualmente — isso acontece sozinho ao fim de cada resposta.
+
+Para fazer push manualmente: `! git add -A && git commit -m "mensagem" && git push`
+
 ## Key conventions
 
 - Grid layouts use `.grid-2`, `.grid-3`, `.grid-4` classes (CSS `auto-fit` columns).
