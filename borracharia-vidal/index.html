@@ -1,0 +1,2024 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Borracharia Vidal – Tradição desde 1961 | Anil, Rio de Janeiro</title>
+<meta name="description" content="Borracharia Vidal: mais de 60 anos de história, honestidade e tradição no Anil, Rio de Janeiro. Pneus, alinhamento, balanceamento e detalhamento. Melhor borracharia da região por 7 anos consecutivos.">
+<meta name="keywords" content="borracharia Anil, borracharia Rio de Janeiro, pneus Jacarepaguá, alinhamento balanceamento RJ, Borracharia Vidal">
+<meta property="og:title" content="Borracharia Vidal – Tradição desde 1961">
+<meta property="og:description" content="Mais de 60 anos de honestidade e tradição no coração do Anil, Rio de Janeiro.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<link rel="canonical" href="https://borrachariavidal.com.br">
+
+<!-- Schema LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Borracharia Vidal",
+  "image": "https://borrachariavidal.com.br/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Estrada de Jacarepaguá, 6910",
+    "addressLocality": "Anil",
+    "addressRegion": "RJ",
+    "postalCode": "22753-000",
+    "addressCountry": "BR"
+  },
+  "telephone": "+552133471264",
+  "openingHoursSpecification": [
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday"],"opens":"08:00","closes":"14:00"}
+  ],
+  "aggregateRating": {"@type":"AggregateRating","ratingValue":"4.5","reviewCount":"231"},
+  "foundingDate": "1961",
+  "description": "Borracharia tradicional fundada em 1961, oferecendo serviços de pneus, alinhamento, balanceamento e detalhamento automotivo com honestidade e tradição."
+}
+</script>
+
+<style>
+  /* ===== RESET & BASE ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  :root {
+    --navy:    #0D1B2A;
+    --navy2:   #1a2e45;
+    --gold:    #C8922A;
+    --gold2:   #E8B340;
+    --cream:   #F7F3EE;
+    --white:   #FFFFFF;
+    --gray:    #6B7280;
+    --light:   #F0EBE3;
+    --red:     #C0392B;
+    --text:    #1a1a1a;
+    --shadow:  0 4px 24px rgba(0,0,0,.18);
+    --radius:  8px;
+    --fw-hdr:  'Georgia', serif;
+  }
+
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    background: var(--white);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  img { display: block; max-width: 100%; height: auto; }
+  a { color: inherit; text-decoration: none; }
+  ul { list-style: none; }
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .section-label {
+    display: inline-block;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-family: var(--fw-hdr);
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    line-height: 1.2;
+    color: var(--navy);
+    margin-bottom: 16px;
+  }
+
+  .section-title.light { color: var(--white); }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    border-radius: var(--radius);
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all .22s ease;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .btn-gold {
+    background: var(--gold);
+    color: var(--white);
+  }
+  .btn-gold:hover { background: var(--gold2); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(200,146,42,.4); }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--white);
+    border: 2px solid rgba(255,255,255,.6);
+  }
+  .btn-outline:hover { background: rgba(255,255,255,.12); border-color: var(--white); }
+
+  .btn-wa {
+    background: #25D366;
+    color: var(--white);
+  }
+  .btn-wa:hover { background: #1ebe57; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,211,102,.4); }
+
+  /* ===== HEADER / NAV ===== */
+  #header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: rgba(13,27,42,.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(200,146,42,.25);
+    transition: all .3s;
+  }
+
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    gap: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  }
+
+  .logo-badge {
+    width: 46px; height: 46px;
+    background: var(--gold);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--fw-hdr);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--white);
+    flex-shrink: 0;
+    box-shadow: 0 0 0 3px rgba(200,146,42,.3);
+  }
+
+  .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
+  .logo-text strong { font-family: var(--fw-hdr); font-size: 1.1rem; color: var(--white); letter-spacing: .02em; }
+  .logo-text span { font-size: .65rem; color: var(--gold); letter-spacing: .12em; text-transform: uppercase; }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .nav-links a {
+    color: rgba(255,255,255,.8);
+    font-size: .9rem;
+    font-weight: 500;
+    transition: color .2s;
+    position: relative;
+  }
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; left: 0; right: 0;
+    height: 2px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transition: transform .2s;
+  }
+  .nav-links a:hover { color: var(--gold); }
+  .nav-links a:hover::after { transform: scaleX(1); }
+
+  .nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .nav-phone {
+    display: flex; align-items: center; gap: 6px;
+    color: var(--white);
+    font-weight: 600;
+    font-size: .9rem;
+    opacity: .85;
+    transition: opacity .2s;
+  }
+  .nav-phone:hover { opacity: 1; color: var(--gold); }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+  .hamburger span {
+    display: block; width: 24px; height: 2px;
+    background: var(--white);
+    border-radius: 2px;
+    transition: all .3s;
+  }
+
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    background: var(--navy);
+    border-top: 1px solid rgba(200,146,42,.2);
+  }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a {
+    padding: 14px 20px;
+    color: rgba(255,255,255,.85);
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,.06);
+    transition: all .2s;
+  }
+  .mobile-menu a:hover { color: var(--gold); background: rgba(200,146,42,.08); }
+  .mobile-menu .mob-cta {
+    padding: 14px 20px;
+    display: flex; gap: 10px; flex-wrap: wrap;
+  }
+
+  /* ===== HERO ===== */
+  #hero {
+    position: relative;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: var(--navy);
+    padding-top: 68px;
+  }
+
+  .hero-bg {
+    position: absolute; inset: 0;
+    background-image:
+      radial-gradient(ellipse at 70% 50%, rgba(200,146,42,.12) 0%, transparent 60%),
+      linear-gradient(135deg, #0D1B2A 0%, #1a3050 100%);
+    z-index: 0;
+  }
+
+  /* Tire ring decoration */
+  .tire-ring {
+    position: absolute;
+    right: -5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: min(600px, 55vw);
+    height: min(600px, 55vw);
+    border-radius: 50%;
+    border: min(80px, 8vw) solid rgba(200,146,42,.08);
+    box-shadow:
+      inset 0 0 0 min(16px, 1.5vw) rgba(200,146,42,.06),
+      0 0 80px rgba(200,146,42,.05);
+    z-index: 1;
+  }
+  .tire-ring::before {
+    content: '';
+    position: absolute;
+    inset: 12%;
+    border-radius: 50%;
+    border: min(60px, 5vw) solid rgba(200,146,42,.05);
+  }
+  .tire-ring::after {
+    content: '';
+    position: absolute;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+    width: 18%; height: 18%;
+    background: rgba(200,146,42,.06);
+    border-radius: 50%;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 640px;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(200,146,42,.15);
+    border: 1px solid rgba(200,146,42,.4);
+    border-radius: 100px;
+    padding: 6px 16px;
+    margin-bottom: 24px;
+    color: var(--gold2);
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .hero-title {
+    font-family: var(--fw-hdr);
+    font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.1;
+    color: var(--white);
+    margin-bottom: 12px;
+  }
+
+  .hero-title .gold { color: var(--gold); }
+
+  .hero-sub {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: rgba(255,255,255,.75);
+    margin-bottom: 32px;
+    max-width: 520px;
+    line-height: 1.65;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 48px;
+  }
+
+  .hero-stats {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .hero-stat {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-stat strong {
+    font-family: var(--fw-hdr);
+    font-size: 2rem;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .hero-stat span {
+    font-size: .78rem;
+    color: rgba(255,255,255,.6);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin-top: 4px;
+  }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    color: rgba(255,255,255,.4);
+    font-size: .7rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    animation: bounce 2s infinite;
+  }
+  .hero-scroll svg { opacity: .4; }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(6px); }
+  }
+
+  /* ===== TRUST BAR ===== */
+  #trust-bar {
+    background: var(--gold);
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .trust-inner {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 28px;
+    flex: 1;
+    min-width: 180px;
+    border-right: 1px solid rgba(255,255,255,.25);
+    background: transparent;
+    transition: background .2s;
+  }
+  .trust-item:last-child { border-right: none; }
+  .trust-item:hover { background: rgba(255,255,255,.1); }
+
+  .trust-icon {
+    font-size: 1.6rem;
+    flex-shrink: 0;
+  }
+
+  .trust-text strong {
+    display: block;
+    color: var(--white);
+    font-size: .95rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .trust-text span {
+    font-size: .72rem;
+    color: rgba(255,255,255,.8);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+
+  /* ===== SERVIÇOS ===== */
+  #servicos {
+    padding: 96px 0;
+    background: var(--cream);
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+
+  .service-card {
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 16px rgba(0,0,0,.07);
+    transition: transform .25s, box-shadow .25s;
+    position: relative;
+  }
+  .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 40px rgba(0,0,0,.13);
+  }
+
+  .service-img {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    background: var(--navy);
+  }
+  .service-img img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform .4s;
+  }
+  .service-card:hover .service-img img { transform: scale(1.06); }
+
+  .service-img-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 40%, rgba(13,27,42,.7));
+  }
+
+  .service-icon-wrap {
+    position: absolute;
+    bottom: -22px;
+    left: 24px;
+    width: 48px; height: 48px;
+    background: var(--gold);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem;
+    box-shadow: 0 4px 16px rgba(200,146,42,.4);
+    z-index: 1;
+  }
+
+  .service-body {
+    padding: 36px 24px 28px;
+  }
+  .service-body h3 {
+    font-family: var(--fw-hdr);
+    font-size: 1.25rem;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+  .service-body p {
+    font-size: .9rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-bottom: 18px;
+  }
+
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .service-tag {
+    background: var(--cream);
+    color: var(--navy2);
+    font-size: .72rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 100px;
+    letter-spacing: .04em;
+  }
+
+  /* ===== HISTÓRIA ===== */
+  #historia {
+    padding: 96px 0;
+    background: var(--navy);
+    position: relative;
+    overflow: hidden;
+  }
+
+  #historia::before {
+    content: '1961';
+    position: absolute;
+    right: -2%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: var(--fw-hdr);
+    font-size: clamp(8rem, 20vw, 18rem);
+    font-weight: 700;
+    color: rgba(200,146,42,.04);
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .historia-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .historia-img-wrap {
+    position: relative;
+  }
+
+  .historia-main-img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+  }
+
+  .historia-badge-yr {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 110px; height: 110px;
+    background: var(--gold);
+    border-radius: 50%;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    box-shadow: 0 8px 32px rgba(200,146,42,.45);
+    border: 4px solid var(--navy);
+  }
+  .historia-badge-yr strong {
+    font-family: var(--fw-hdr);
+    font-size: 1.8rem;
+    color: var(--white);
+    line-height: 1;
+  }
+  .historia-badge-yr span {
+    font-size: .62rem;
+    color: rgba(255,255,255,.85);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+
+  .historia-content .section-label { color: var(--gold); }
+
+  .historia-text {
+    color: rgba(255,255,255,.75);
+    font-size: 1rem;
+    line-height: 1.75;
+    margin-bottom: 20px;
+  }
+
+  .historia-milestones {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 36px;
+  }
+
+  .milestone {
+    display: flex;
+    gap: 20px;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255,255,255,.07);
+    position: relative;
+  }
+  .milestone:last-child { border-bottom: none; }
+
+  .milestone-year {
+    font-family: var(--fw-hdr);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    flex-shrink: 0;
+    width: 60px;
+    padding-top: 2px;
+  }
+
+  .milestone-info h4 {
+    font-size: .95rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 4px;
+  }
+  .milestone-info p {
+    font-size: .82rem;
+    color: rgba(255,255,255,.5);
+    line-height: 1.5;
+  }
+
+  /* ===== AVALIAÇÕES ===== */
+  #avaliacoes {
+    padding: 96px 0;
+    background: var(--light);
+  }
+
+  .stars-row {
+    display: flex;
+    gap: 4px;
+    color: var(--gold);
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+
+  .rating-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 56px;
+    flex-wrap: wrap;
+  }
+
+  .rating-big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rating-big .num {
+    font-family: var(--fw-hdr);
+    font-size: 4rem;
+    color: var(--navy);
+    line-height: 1;
+    font-weight: 700;
+  }
+  .rating-big .lbl {
+    font-size: .72rem;
+    color: var(--gray);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    margin-top: 4px;
+  }
+
+  .rating-divider {
+    width: 1px;
+    height: 60px;
+    background: rgba(0,0,0,.12);
+  }
+
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  .review-card {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.06);
+    transition: transform .2s, box-shadow .2s;
+  }
+  .review-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 32px rgba(0,0,0,.1);
+  }
+
+  .reviewer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .reviewer-avatar {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--white);
+    flex-shrink: 0;
+  }
+  .reviewer-info strong {
+    display: block;
+    font-size: .9rem;
+    color: var(--navy);
+  }
+  .reviewer-info span {
+    font-size: .72rem;
+    color: var(--gray);
+  }
+
+  .review-text {
+    font-size: .88rem;
+    color: #444;
+    line-height: 1.65;
+    font-style: italic;
+  }
+  .review-text::before { content: '"'; }
+  .review-text::after { content: '"'; }
+
+  .google-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+    font-size: .72rem;
+    color: var(--gray);
+    background: var(--cream);
+    padding: 4px 10px;
+    border-radius: 100px;
+  }
+
+  /* ===== VIDAL DETAIL ===== */
+  #detail {
+    padding: 96px 0;
+    background: var(--navy);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+  }
+
+  .detail-content .section-label { color: var(--gold); }
+
+  .detail-content p {
+    color: rgba(255,255,255,.75);
+    line-height: 1.75;
+    margin-bottom: 20px;
+  }
+
+  .detail-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 28px;
+  }
+
+  .detail-feat {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 14px;
+    background: rgba(255,255,255,.05);
+    border-radius: 8px;
+    border: 1px solid rgba(200,146,42,.15);
+  }
+  .detail-feat-icon { font-size: 1.3rem; flex-shrink: 0; }
+  .detail-feat-text strong {
+    display: block;
+    font-size: .85rem;
+    color: var(--white);
+    margin-bottom: 2px;
+  }
+  .detail-feat-text span {
+    font-size: .75rem;
+    color: rgba(255,255,255,.5);
+  }
+
+  .detail-img-wrap {
+    position: relative;
+  }
+  .detail-main-img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .detail-glow {
+    position: absolute;
+    inset: -2px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--gold), transparent);
+    z-index: -1;
+    opacity: .35;
+  }
+
+  /* ===== GALERIA ===== */
+  #galeria {
+    padding: 96px 0;
+    background: var(--cream);
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+  }
+
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+  }
+  .gallery-item:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .gallery-img {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    transition: transform .4s;
+  }
+  .gallery-item:first-child .gallery-img { min-height: 400px; }
+
+  .gallery-item:hover .gallery-img { transform: scale(1.06); }
+
+  .gallery-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(13,27,42,.7) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity .3s;
+    display: flex; align-items: flex-end;
+    padding: 16px;
+  }
+  .gallery-item:hover .gallery-overlay { opacity: 1; }
+  .gallery-overlay span {
+    color: var(--white);
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+  }
+
+  /* ===== CONTATO ===== */
+  #contato {
+    padding: 96px 0;
+    background: var(--white);
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  .contact-info h3 {
+    font-family: var(--fw-hdr);
+    font-size: 1.5rem;
+    color: var(--navy);
+    margin-bottom: 24px;
+  }
+
+  .contact-items {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 32px;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .contact-item-icon {
+    width: 44px; height: 44px;
+    background: var(--gold);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    color: var(--white);
+  }
+  .contact-item-body strong {
+    display: block;
+    font-size: .85rem;
+    color: var(--navy);
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .contact-item-body span, .contact-item-body a {
+    font-size: .88rem;
+    color: var(--gray);
+    line-height: 1.5;
+    display: block;
+  }
+  .contact-item-body a:hover { color: var(--gold); }
+
+  .contact-ctas {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact-cta-btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: .95rem;
+    text-decoration: none;
+    transition: all .22s;
+  }
+  .contact-cta-btn.wa {
+    background: #25D366;
+    color: var(--white);
+  }
+  .contact-cta-btn.wa:hover { background: #1ebe57; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(37,211,102,.35); }
+
+  .contact-cta-btn.phone {
+    background: var(--navy);
+    color: var(--white);
+  }
+  .contact-cta-btn.phone:hover { background: var(--navy2); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(13,27,42,.25); }
+
+  .contact-cta-btn.insta {
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: var(--white);
+  }
+  .contact-cta-btn.insta:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(220,39,67,.35); }
+
+  .cta-icon { font-size: 1.3rem; }
+  .cta-body { display: flex; flex-direction: column; }
+  .cta-body .lbl { font-size: .68rem; opacity: .8; font-weight: 400; }
+
+  .map-wrap {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    height: 380px;
+  }
+  .map-wrap iframe {
+    width: 100%; height: 100%;
+    border: none;
+    filter: grayscale(20%) contrast(1.05);
+  }
+
+  /* ===== HORÁRIOS CTA BANNER ===== */
+  #cta-banner {
+    background: var(--gold);
+    padding: 48px 0;
+  }
+
+  .cta-banner-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .cta-banner-text h2 {
+    font-family: var(--fw-hdr);
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    color: var(--white);
+    margin-bottom: 6px;
+  }
+  .cta-banner-text p {
+    color: rgba(255,255,255,.85);
+    font-size: 1rem;
+  }
+
+  .cta-banner-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+
+  .btn-white {
+    background: var(--white);
+    color: var(--gold);
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: var(--radius);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all .22s;
+    font-size: 1rem;
+  }
+  .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.15); }
+
+  .btn-dark {
+    background: var(--navy);
+    color: var(--white);
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: var(--radius);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all .22s;
+    font-size: 1rem;
+  }
+  .btn-dark:hover { background: var(--navy2); transform: translateY(-2px); }
+
+  /* ===== FOOTER ===== */
+  #footer {
+    background: #060e18;
+    padding: 56px 0 24px;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 48px;
+  }
+
+  .footer-brand p {
+    color: rgba(255,255,255,.5);
+    font-size: .85rem;
+    line-height: 1.7;
+    margin: 16px 0 20px;
+    max-width: 300px;
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 10px;
+  }
+  .social-btn {
+    width: 38px; height: 38px;
+    border-radius: 8px;
+    background: rgba(255,255,255,.07);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem;
+    color: rgba(255,255,255,.7);
+    transition: all .2s;
+    text-decoration: none;
+  }
+  .social-btn:hover { background: var(--gold); color: var(--white); }
+
+  .footer-col h4 {
+    font-family: var(--fw-hdr);
+    font-size: 1rem;
+    color: var(--white);
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(200,146,42,.3);
+  }
+
+  .footer-links { display: flex; flex-direction: column; gap: 10px; }
+  .footer-links a {
+    color: rgba(255,255,255,.5);
+    font-size: .85rem;
+    transition: color .2s;
+  }
+  .footer-links a:hover { color: var(--gold); }
+
+  .footer-hours { display: flex; flex-direction: column; gap: 8px; }
+  .hour-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: .83rem;
+    color: rgba(255,255,255,.5);
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+  }
+  .hour-row .day { color: rgba(255,255,255,.8); }
+  .hour-row .closed { color: var(--red); }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,.06);
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .footer-bottom p { font-size: .78rem; color: rgba(255,255,255,.35); }
+  .footer-bottom a { color: var(--gold); }
+
+  /* ===== FLOATING WA ===== */
+  .float-wa {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 999;
+    width: 58px; height: 58px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 24px rgba(37,211,102,.5);
+    color: var(--white);
+    font-size: 1.5rem;
+    transition: all .22s;
+    text-decoration: none;
+    animation: pulse-wa 2.5s infinite;
+  }
+  .float-wa:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 32px rgba(37,211,102,.6);
+    animation: none;
+  }
+
+  @keyframes pulse-wa {
+    0%, 100% { box-shadow: 0 4px 24px rgba(37,211,102,.5); }
+    50% { box-shadow: 0 4px 36px rgba(37,211,102,.7), 0 0 0 8px rgba(37,211,102,.12); }
+  }
+
+  /* ===== SCROLL FADE ===== */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity .65s ease, transform .65s ease;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 1024px) {
+    .historia-grid,
+    .detail-grid,
+    .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+
+    .historia-badge-yr { right: 16px; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+    .gallery-item:first-child { grid-column: span 2; grid-row: span 1; }
+    .gallery-item:first-child .gallery-img { min-height: 260px; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .footer-brand { grid-column: span 2; }
+  }
+
+  @media (max-width: 768px) {
+    .nav-links, .nav-phone { display: none; }
+    .hamburger { display: flex; }
+
+    .hero-content { max-width: 100%; }
+    .tire-ring { display: none; }
+
+    .hero-stats { gap: 20px; }
+    .hero-stat strong { font-size: 1.6rem; }
+
+    .trust-inner { flex-direction: column; }
+    .trust-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,.2); }
+    .trust-item:last-child { border-bottom: none; }
+
+    #historia::before { font-size: 7rem; opacity: .06; }
+
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .gallery-item:first-child { grid-column: span 2; }
+
+    .detail-features { grid-template-columns: 1fr; }
+
+    .footer-grid { grid-template-columns: 1fr; }
+    .footer-brand { grid-column: auto; }
+
+    .cta-banner-inner { flex-direction: column; }
+  }
+
+  @media (max-width: 480px) {
+    .container { padding: 0 16px; }
+    #servicos, #historia, #avaliacoes, #detail, #galeria, #contato { padding: 64px 0; }
+    .hero-actions { flex-direction: column; }
+    .hero-actions .btn { width: 100%; justify-content: center; }
+    .contact-ctas { gap: 10px; }
+    .gallery-grid { grid-template-columns: 1fr; }
+    .gallery-item:first-child { grid-column: auto; }
+  }
+</style>
+</head>
+<body>
+
+<!-- FLOATING WA -->
+<a href="https://wa.me/5521933471264?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="float-wa" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="container">
+    <nav class="nav-inner">
+      <a href="#hero" class="logo">
+        <div class="logo-badge">V</div>
+        <div class="logo-text">
+          <strong>Borracharia Vidal</strong>
+          <span>Desde 1961 · Anil, Rio de Janeiro</span>
+        </div>
+      </a>
+
+      <div class="nav-links">
+        <a href="#servicos">Serviços</a>
+        <a href="#historia">Nossa História</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#detail">Vidal Detail</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </div>
+
+      <div class="nav-cta">
+        <a href="tel:+552133471264" class="nav-phone">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          (21) 3347-1264
+        </a>
+        <a href="https://wa.me/5521933471264?text=Olá!%20Gostaria%20de%20um%20orçamento." class="btn btn-wa" style="padding:10px 18px; font-size:.85rem;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+
+      <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#servicos" onclick="toggleMenu()">Serviços</a>
+    <a href="#historia" onclick="toggleMenu()">Nossa História</a>
+    <a href="#avaliacoes" onclick="toggleMenu()">Avaliações</a>
+    <a href="#detail" onclick="toggleMenu()">Vidal Detail</a>
+    <a href="#galeria" onclick="toggleMenu()">Galeria</a>
+    <a href="#contato" onclick="toggleMenu()">Contato</a>
+    <div class="mob-cta">
+      <a href="tel:+552133471264" class="btn btn-outline" style="flex:1; justify-content:center; color:#fff;">📞 Ligar</a>
+      <a href="https://wa.me/5521933471264" class="btn btn-wa" style="flex:1; justify-content:center;">WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="tire-ring"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        Melhor da Região · 7 Anos Consecutivos
+      </div>
+      <h1 class="hero-title">
+        Mais de <span class="gold">60 anos</span><br>
+        de Honestidade<br>e Tradição
+      </h1>
+      <p class="hero-sub">
+        Fundada em 1961 por um homem com 1m² e uma máquina, a Borracharia Vidal cresceu pela força do trabalho honesto e virou referência no Rio de Janeiro. Hoje, no Anil, continuamos a mesma história — de pai para filho.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5521933471264?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="btn btn-wa">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chamar no WhatsApp
+        </a>
+        <a href="#servicos" class="btn btn-outline">Ver Serviços</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <strong>+60</strong>
+          <span>Anos de história</span>
+        </div>
+        <div class="hero-stat">
+          <strong>4.5★</strong>
+          <span>231 avaliações Google</span>
+        </div>
+        <div class="hero-stat">
+          <strong>7×</strong>
+          <span>Melhor da região</span>
+        </div>
+        <div class="hero-stat">
+          <strong>1961</strong>
+          <span>Ano de fundação</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <span>Rolar</span>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div id="trust-bar">
+  <div class="trust-inner container">
+    <div class="trust-item">
+      <span class="trust-icon">🏆</span>
+      <div class="trust-text">
+        <strong>7 Anos Consecutivos</strong>
+        <span>Melhor da Região</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">⭐</span>
+      <div class="trust-text">
+        <strong>4.5 no Google</strong>
+        <span>231 avaliações reais</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">🤝</span>
+      <div class="trust-text">
+        <strong>100% Honestidade</strong>
+        <span>Nosso maior diferencial</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">👨‍👦</span>
+      <div class="trust-text">
+        <strong>De Pai Para Filho</strong>
+        <span>Tradição familiar desde 1961</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <span class="trust-icon">📍</span>
+      <div class="trust-text">
+        <strong>Anil, Rio de Janeiro</strong>
+        <span>Estr. Jacarepaguá, 6910</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">O que fazemos</span>
+      <h2 class="section-title">Serviços completos<br>para o seu veículo</h2>
+      <p style="color:var(--gray); max-width:520px; margin:0 auto;">Atendemos todo tipo de veículo com peças de qualidade, mão de obra experiente e o preço justo que você merece.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card fade-in">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=600&q=80&auto=format&fit=crop" alt="Pneus novos e usados" loading="lazy" width="600" height="200">
+          <div class="service-img-overlay"></div>
+          <div class="service-icon-wrap">🔧</div>
+        </div>
+        <div class="service-body">
+          <h3>Borracharia Completa</h3>
+          <p>Conserto de pneus furados, remendo a frio e a quente, montagem e desmontagem com equipamentos modernos.</p>
+          <div class="service-list">
+            <span class="service-tag">Remendo de pneu</span>
+            <span class="service-tag">Conserto de câmara</span>
+            <span class="service-tag">Montagem</span>
+            <span class="service-tag">Desmontagem</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop" alt="Venda de pneus" loading="lazy" width="600" height="200">
+          <div class="service-img-overlay"></div>
+          <div class="service-icon-wrap">🛞</div>
+        </div>
+        <div class="service-body">
+          <h3>Venda de Pneus</h3>
+          <p>Grande variedade de pneus novos e seminovos para passeio, SUV, utilitários e motos. Instalação inclusa.</p>
+          <div class="service-list">
+            <span class="service-tag">Pneus novos</span>
+            <span class="service-tag">Pneus seminovos</span>
+            <span class="service-tag">SUV</span>
+            <span class="service-tag">Motos</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=80&auto=format&fit=crop" alt="Alinhamento e balanceamento" loading="lazy" width="600" height="200">
+          <div class="service-img-overlay"></div>
+          <div class="service-icon-wrap">⚖️</div>
+        </div>
+        <div class="service-body">
+          <h3>Alinhamento e Balanceamento</h3>
+          <p>Equipamentos de precisão para garantir estabilidade, segurança e economia de combustível no seu carro.</p>
+          <div class="service-list">
+            <span class="service-tag">Alinhamento 3D</span>
+            <span class="service-tag">Balanceamento</span>
+            <span class="service-tag">Geometria</span>
+            <span class="service-tag">Diagnóstico</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-card fade-in">
+        <div class="service-img">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80&auto=format&fit=crop" alt="Reparo de rodas" loading="lazy" width="600" height="200">
+          <div class="service-img-overlay"></div>
+          <div class="service-icon-wrap">🔩</div>
+        </div>
+        <div class="service-body">
+          <h3>Reparo de Rodas</h3>
+          <p>Recuperamos rodas amassadas, trincadas ou deformadas. Rodas liga leve e ferro com acabamento profissional.</p>
+          <div class="service-list">
+            <span class="service-tag">Rodas liga leve</span>
+            <span class="service-tag">Rodas de ferro</span>
+            <span class="service-tag">Endireitamento</span>
+            <span class="service-tag">Solda</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HISTÓRIA -->
+<section id="historia">
+  <div class="container">
+    <div class="historia-grid">
+      <div class="historia-img-wrap fade-in">
+        <img
+          src="https://images.unsplash.com/photo-1567789884554-0b844b597180?w=700&q=80&auto=format&fit=crop"
+          alt="Borracharia Vidal - Tradição e história no Rio de Janeiro"
+          class="historia-main-img"
+          loading="lazy"
+          width="700"
+          height="525"
+        >
+        <div class="historia-badge-yr">
+          <strong>1961</strong>
+          <span>Fundação</span>
+        </div>
+      </div>
+
+      <div class="historia-content fade-in">
+        <span class="section-label">Nossa história</span>
+        <h2 class="section-title light">De 1m² em Irajá<br>para o coração do Anil</h2>
+
+        <p class="historia-text">
+          Tudo começou em Irajá, no bairro de Vaz Lobo, com um espaço de 1 metro quadrado e uma única máquina. Era 1961, e um homem com muito trabalho e mais honestidade ainda decidiu construir seu futuro consertando pneus.
+        </p>
+        <p class="historia-text">
+          Décadas se passaram, o negócio cresceu, o Rio de Janeiro mudou — mas o DNA da Borracharia Vidal permanece o mesmo: serviço honesto, preço justo e respeito pelo cliente. Hoje, na Estrada de Jacarepaguá, no Anil, a história continua de pai para filho.
+        </p>
+
+        <div class="historia-milestones">
+          <div class="milestone">
+            <span class="milestone-year">1961</span>
+            <div class="milestone-info">
+              <h4>O começo em Irajá</h4>
+              <p>1m² de espaço, uma máquina e muita determinação em Vaz Lobo</p>
+            </div>
+          </div>
+          <div class="milestone">
+            <span class="milestone-year">Anos 80</span>
+            <div class="milestone-info">
+              <h4>Crescimento e expansão</h4>
+              <p>Reconhecimento da vizinhança e ampliação dos serviços</p>
+            </div>
+          </div>
+          <div class="milestone">
+            <span class="milestone-year">Anos 2000</span>
+            <div class="milestone-info">
+              <h4>Chegada ao Anil</h4>
+              <p>Nova sede na Estrada de Jacarepaguá, referência na Zona Oeste</p>
+            </div>
+          </div>
+          <div class="milestone">
+            <span class="milestone-year">Hoje</span>
+            <div class="milestone-info">
+              <h4>7 anos como a melhor</h4>
+              <p>Reconhecida consecutivamente como melhor borracharia da região</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AVALIAÇÕES -->
+<section id="avaliacoes">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">O que dizem os clientes</span>
+      <h2 class="section-title">Avaliados com 4.5 estrelas<br>no Google</h2>
+    </div>
+
+    <div class="rating-summary fade-in">
+      <div class="rating-big">
+        <span class="num">4.5</span>
+        <div class="stars-row">★★★★½</div>
+        <span class="lbl">Avaliação média</span>
+      </div>
+      <div class="rating-divider"></div>
+      <div class="rating-big">
+        <span class="num">231</span>
+        <div class="stars-row" style="color:var(--gray); font-size:.9rem;">avaliações</div>
+        <span class="lbl">no Google Maps</span>
+      </div>
+      <div class="rating-divider"></div>
+      <div class="rating-big">
+        <span class="num">7×</span>
+        <div class="stars-row" style="color:var(--gray); font-size:.9rem;">consecutivos</div>
+        <span class="lbl">Melhor da região</span>
+      </div>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="review-card fade-in">
+        <div class="stars-row">★★★★★</div>
+        <div class="reviewer">
+          <div class="reviewer-avatar" style="background:#4285F4;">M</div>
+          <div class="reviewer-info">
+            <strong>Marcos Oliveira</strong>
+            <span>Cliente há 20 anos</span>
+          </div>
+        </div>
+        <p class="review-text">Atendimento rápido e honesto. O Rafael identificou que era problema na roda e não no pneu — me economizou mais de R$150. Não vou em outra borracharia.</p>
+        <div class="google-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Maps
+        </div>
+      </div>
+
+      <div class="review-card fade-in">
+        <div class="stars-row">★★★★★</div>
+        <div class="reviewer">
+          <div class="reviewer-avatar" style="background:#34A853;">A</div>
+          <div class="reviewer-info">
+            <strong>Ana Paula Santos</strong>
+            <span>Moradora do Anil</span>
+          </div>
+        </div>
+        <p class="review-text">Fui atendida com muita atenção. O Beto é muito profissional, explicou tudo direitinho. Área de espera confortável, me ofereceram até água. 100% recomendo!</p>
+        <div class="google-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Maps
+        </div>
+      </div>
+
+      <div class="review-card fade-in">
+        <div class="stars-row">★★★★★</div>
+        <div class="reviewer">
+          <div class="reviewer-avatar" style="background:#EA4335;">C</div>
+          <div class="reviewer-info">
+            <strong>Carlos Eduardo</strong>
+            <span>Motorista de app</span>
+          </div>
+        </div>
+        <p class="review-text">Melhor borracharia do Rio. Preço justo, sem enrolação, sem jogar preço na cara. Já indiquei para todos os meus colegas de trabalho. É de confiança mesmo.</p>
+        <div class="google-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Maps
+        </div>
+      </div>
+
+      <div class="review-card fade-in">
+        <div class="stars-row">★★★★★</div>
+        <div class="reviewer">
+          <div class="reviewer-avatar" style="background:#FBBC05; color:#333;">R</div>
+          <div class="reviewer-info">
+            <strong>Regina Fonseca</strong>
+            <span>Jacarepaguá</span>
+          </div>
+        </div>
+        <p class="review-text">Passei mal longe de casa, eles me atenderam de imediato, sem demora. Preço muito abaixo do que esperava. Uma borracharia do jeito antigo: capricho e honestidade.</p>
+        <div class="google-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Maps
+        </div>
+      </div>
+
+      <div class="review-card fade-in">
+        <div class="stars-row">★★★★★</div>
+        <div class="reviewer">
+          <div class="reviewer-avatar" style="background:#9C27B0;">P</div>
+          <div class="reviewer-info">
+            <strong>Paulo Henrique</strong>
+            <span>Cliente fiel</span>
+          </div>
+        </div>
+        <p class="review-text">20 anos de cliente. Já levei carro, moto, caminhonete. Sempre fui bem atendido, sempre saí satisfeito. É difícil encontrar uma empresa assim no Rio hoje em dia.</p>
+        <div class="google-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Maps
+        </div>
+      </div>
+
+      <div class="review-card fade-in">
+        <div class="stars-row">★★★★★</div>
+        <div class="reviewer">
+          <div class="reviewer-avatar" style="background:#00BCD4;">L</div>
+          <div class="reviewer-info">
+            <strong>Luciana Moraes</strong>
+            <span>Anil</span>
+          </div>
+        </div>
+        <p class="review-text">Melhor custo-benefício da região! Fui comparar com outras borracharias e a diferença de preço é absurda. E aqui o serviço é de primeira. Super indico!</p>
+        <div class="google-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Maps
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:36px;" class="fade-in">
+      <a href="https://g.page/r/borrachariavidal/review" target="_blank" rel="noopener" class="btn btn-gold">
+        Ver todas as avaliações no Google
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- VIDAL DETAIL -->
+<section id="detail">
+  <div class="container">
+    <div class="detail-grid">
+      <div class="detail-content fade-in">
+        <span class="section-label">Novo serviço</span>
+        <h2 class="section-title light">Vidal Detail</h2>
+        <p>Além da borracharia que todo Rio conhece, lançamos o <strong style="color:var(--gold);">Vidal Detail</strong> — serviço completo de detalhamento automotivo com a mesma honestidade e qualidade que fazem parte do nosso DNA.</p>
+        <p>Do polimento à higienização interna, cuidamos do seu carro como se fosse o nosso. Porque um veículo bem cuidado é reflexo de quem o dirige.</p>
+
+        <div class="detail-features">
+          <div class="detail-feat">
+            <span class="detail-feat-icon">✨</span>
+            <div class="detail-feat-text">
+              <strong>Polimento</strong>
+              <span>Corte e refino profissional</span>
+            </div>
+          </div>
+          <div class="detail-feat">
+            <span class="detail-feat-icon">🧴</span>
+            <div class="detail-feat-text">
+              <strong>Vitrificação</strong>
+              <span>Proteção de longa duração</span>
+            </div>
+          </div>
+          <div class="detail-feat">
+            <span class="detail-feat-icon">🪣</span>
+            <div class="detail-feat-text">
+              <strong>Higienização</strong>
+              <span>Interna e externa completa</span>
+            </div>
+          </div>
+          <div class="detail-feat">
+            <span class="detail-feat-icon">🛡️</span>
+            <div class="detail-feat-text">
+              <strong>PPF / Película</strong>
+              <span>Proteção de pintura</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:28px; display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="https://wa.me/5521933471264?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20Vidal%20Detail." class="btn btn-gold">
+            Orçamento Vidal Detail
+          </a>
+          <a href="https://www.instagram.com/borrachariavidal/" target="_blank" rel="noopener" class="btn btn-outline">
+            Ver no Instagram
+          </a>
+        </div>
+      </div>
+
+      <div class="detail-img-wrap fade-in">
+        <div class="detail-glow"></div>
+        <img
+          src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=700&q=80&auto=format&fit=crop"
+          alt="Vidal Detail - Detalhamento automotivo profissional"
+          class="detail-main-img"
+          loading="lazy"
+          width="700"
+          height="525"
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">Galeria</span>
+      <h2 class="section-title">Nossa estrutura e serviços</h2>
+      <p style="color:var(--gray);">Siga <a href="https://www.instagram.com/borrachariavidal/" target="_blank" rel="noopener" style="color:var(--gold); font-weight:600;">@borrachariavidal</a> no Instagram para ver mais</p>
+    </div>
+
+    <div class="gallery-grid fade-in">
+      <div class="gallery-item">
+        <img
+          class="gallery-img"
+          src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=800&q=80&auto=format&fit=crop"
+          alt="Borracharia Vidal - Fachada e estrutura"
+          loading="lazy" width="800" height="600"
+        >
+        <div class="gallery-overlay"><span>Nossa estrutura</span></div>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="gallery-img"
+          src="https://images.unsplash.com/photo-1591293836027-5763030ef045?w=400&q=80&auto=format&fit=crop"
+          alt="Serviço de borracharia"
+          loading="lazy" width="400" height="300"
+        >
+        <div class="gallery-overlay"><span>Borracharia</span></div>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="gallery-img"
+          src="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?w=400&q=80&auto=format&fit=crop"
+          alt="Alinhamento e balanceamento"
+          loading="lazy" width="400" height="300"
+        >
+        <div class="gallery-overlay"><span>Alinhamento</span></div>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="gallery-img"
+          src="https://images.unsplash.com/photo-1563720223185-11003d516935?w=400&q=80&auto=format&fit=crop"
+          alt="Pneus disponíveis"
+          loading="lazy" width="400" height="300"
+        >
+        <div class="gallery-overlay"><span>Pneus</span></div>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="gallery-img"
+          src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=400&q=80&auto=format&fit=crop"
+          alt="Detalhamento automotivo"
+          loading="lazy" width="400" height="300"
+        >
+        <div class="gallery-overlay"><span>Vidal Detail</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">Fale conosco</span>
+      <h2 class="section-title">Venha nos visitar</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info fade-in">
+        <h3>Informações de contato</h3>
+
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-body">
+              <strong>Endereço</strong>
+              <span>Estrada de Jacarepaguá, 6910</span>
+              <span>Anil · Rio de Janeiro / RJ</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div class="contact-item-body">
+              <strong>Telefone</strong>
+              <a href="tel:+552133471264">(21) 3347-1264</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">🕐</div>
+            <div class="contact-item-body">
+              <strong>Horário de funcionamento</strong>
+              <span>Segunda a Sexta: 08h às 18h</span>
+              <span>Sábado: 08h às 14h</span>
+              <span>Domingo: Fechado</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📸</div>
+            <div class="contact-item-body">
+              <strong>Instagram</strong>
+              <a href="https://www.instagram.com/borrachariavidal/" target="_blank" rel="noopener">@borrachariavidal</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-ctas">
+          <a href="https://wa.me/5521933471264?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="contact-cta-btn wa">
+            <span class="cta-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </span>
+            <div class="cta-body">
+              <span class="lbl">Chamar no</span>
+              WhatsApp
+            </div>
+          </a>
+          <a href="tel:+552133471264" class="contact-cta-btn phone">
+            <span class="cta-icon">📞</span>
+            <div class="cta-body">
+              <span class="lbl">Ligar para</span>
+              (21) 3347-1264
+            </div>
+          </a>
+          <a href="https://www.instagram.com/borrachariavidal/" target="_blank" rel="noopener" class="contact-cta-btn insta">
+            <span class="cta-icon">📸</span>
+            <div class="cta-body">
+              <span class="lbl">Seguir no</span>
+              @borrachariavidal
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="map-wrap fade-in">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.7!2d-43.3820!3d-22.9550!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU3JzE4LjAiUyA0M8KwMjInNTUuMiJX!5e0!3m2!1spt-BR!2sbr!4v1234567890!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localização da Borracharia Vidal - Estrada de Jacarepaguá 6910, Anil, Rio de Janeiro"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div id="cta-banner">
+  <div class="container">
+    <div class="cta-banner-inner">
+      <div class="cta-banner-text">
+        <h2>Pneu furado? Precisando de alinhamento?</h2>
+        <p>Atendemos de segunda a sábado a partir das 8h. Chame agora pelo WhatsApp!</p>
+      </div>
+      <div class="cta-banner-actions">
+        <a href="https://wa.me/5521933471264?text=Olá!%20Preciso%20de%20atendimento." class="btn-white">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color:#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chamar no WhatsApp
+        </a>
+        <a href="tel:+552133471264" class="btn-dark">
+          📞 (21) 3347-1264
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-badge">V</div>
+          <div class="logo-text">
+            <strong>Borracharia Vidal</strong>
+            <span>Desde 1961 · Anil, Rio de Janeiro</span>
+          </div>
+        </div>
+        <p>Mais de 60 anos de história, honestidade e tradição atendendo o Rio de Janeiro. Fundada em 1961, a Borracharia Vidal é referência em serviços de pneus, alinhamento, balanceamento e detalhamento automotivo.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/borrachariavidal/" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">📸</a>
+          <a href="https://wa.me/5521933471264" class="social-btn" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+          <a href="tel:+552133471264" class="social-btn" aria-label="Ligar">📞</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Serviços</h4>
+        <ul class="footer-links">
+          <li><a href="#servicos">Borracharia completa</a></li>
+          <li><a href="#servicos">Venda de pneus</a></li>
+          <li><a href="#servicos">Alinhamento</a></li>
+          <li><a href="#servicos">Balanceamento</a></li>
+          <li><a href="#servicos">Reparo de rodas</a></li>
+          <li><a href="#detail">Vidal Detail</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Horários</h4>
+        <div class="footer-hours">
+          <div class="hour-row">
+            <span class="day">Segunda</span>
+            <span>08h – 18h</span>
+          </div>
+          <div class="hour-row">
+            <span class="day">Terça</span>
+            <span>08h – 18h</span>
+          </div>
+          <div class="hour-row">
+            <span class="day">Quarta</span>
+            <span>08h – 18h</span>
+          </div>
+          <div class="hour-row">
+            <span class="day">Quinta</span>
+            <span>08h – 18h</span>
+          </div>
+          <div class="hour-row">
+            <span class="day">Sexta</span>
+            <span>08h – 18h</span>
+          </div>
+          <div class="hour-row">
+            <span class="day">Sábado</span>
+            <span>08h – 14h</span>
+          </div>
+          <div class="hour-row">
+            <span class="day">Domingo</span>
+            <span class="closed">Fechado</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Borracharia Vidal · CNPJ 18.826.182/0001-10 · Todos os direitos reservados</p>
+      <p>Estr. de Jacarepaguá, 6910 – Anil, Rio de Janeiro · <a href="tel:+552133471264">(21) 3347-1264</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu
+  function toggleMenu() {
+    const m = document.getElementById('mobileMenu');
+    m.classList.toggle('open');
+  }
+
+  // Close menu on outside click
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('#header')) {
+      document.getElementById('mobileMenu').classList.remove('open');
+    }
+  });
+
+  // Scroll fade-in
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.classList.add('visible');
+        }, i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Active nav highlight on scroll
+  const sections = document.querySelectorAll('section[id], div[id="trust-bar"]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+
+  const navObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        navLinks.forEach(link => {
+          link.style.color = link.getAttribute('href') === `#${id}`
+            ? 'var(--gold)'
+            : '';
+        });
+      }
+    });
+  }, { threshold: 0.4 });
+
+  sections.forEach(s => navObserver.observe(s));
+
+  // Header scroll effect
+  window.addEventListener('scroll', () => {
+    const header = document.getElementById('header');
+    if (window.scrollY > 60) {
+      header.style.background = 'rgba(13,27,42,.99)';
+    } else {
+      header.style.background = 'rgba(13,27,42,.96)';
+    }
+  }, { passive: true });
+</script>
+
+</body>
+</html>

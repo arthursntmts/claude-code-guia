@@ -7,7 +7,10 @@
       "Bash(git remote *)",
       "Bash(git push *)",
       "Bash(npx plugins *)",
-      "Bash(claude mcp *)"
+      "Bash(claude mcp *)",
+      "WebFetch(domain:www.instagram.com)",
+      "WebSearch",
+      "WebFetch(domain:avaliacoesbrasil.com)"
     ]
   },
   "enableAllProjectMcpServers": true,
